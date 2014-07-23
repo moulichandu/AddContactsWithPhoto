@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">ContactsAddWithPhoto</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Add Contacts with Photo</string>
+    
+    <string name="hnt_et_name">Display Name</string>
+    <string name="hnt_et_mobile">Mobile Phone</string>
+    <string name="str_photo">Photo</string>
+    <string name="str_btn_add">Add Contact</string>
+    <string name="str_btn_list">Contacts List</string>
+
+</resources>

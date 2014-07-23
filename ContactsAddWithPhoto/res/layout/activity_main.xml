@@ -1,0 +1,55 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<RelativeLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >    
+	  
+	    <EditText
+	        android:id="@+id/et_name"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true" 
+	        android:inputType="textCapWords"        
+	        android:hint="@string/hnt_et_name" />
+	
+	    <EditText
+	        android:id="@+id/et_mobile"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:inputType="phone"
+	        android:layout_below="@id/et_name"        
+	        android:hint="@string/hnt_et_mobile" />
+	    
+	    <ImageButton 
+	        android:id="@+id/ib_photo"
+	        android:layout_width="100dp"
+	        android:layout_height="100dp"        
+	        android:scaleType="fitCenter"
+	        android:layout_centerHorizontal="true"
+	        android:contentDescription="@string/str_photo"
+	        android:src="@android:drawable/picture_frame"
+	        android:layout_below="@id/et_mobile" />
+	    
+	        
+	    <Button
+	        android:id="@+id/btn_add"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"        
+	        android:layout_below="@id/ib_photo"                
+	        android:text="@string/str_btn_add" />
+	    
+	    <Button
+	        android:id="@+id/btn_list"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"        
+	        android:layout_below="@id/btn_add"                
+	        android:text="@string/str_btn_list" />
+	    
+	</RelativeLayout>
+
+</ScrollView>
